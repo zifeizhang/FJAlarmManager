@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="FJAlarmCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星期x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Yq-Re-e7T">
+                        <rect key="frame" x="8" y="72" width="359" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="296" id="5tF-0p-YVc"/>
+                            <constraint firstAttribute="height" constant="20" id="Knn-oD-kJ7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5tF-0p-YVc"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXq-aZ-XA4">
+                        <rect key="frame" x="8" y="7" width="123" height="41"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="123" id="2Tr-kc-9dg"/>
+                            <constraint firstAttribute="height" constant="41" id="5OT-5i-D3T"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                        <color key="textColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHS-dU-MAb">
+                        <rect key="frame" x="282" y="23" width="85" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="fHS-dU-MAb" secondAttribute="height" multiplier="89:40" constant="-4.875" id="SRj-Wt-Kde"/>
+                            <constraint firstAttribute="width" constant="85" id="VkI-Hy-7dQ"/>
+                            <constraint firstAttribute="height" constant="41" id="dKd-gS-84v"/>
+                        </constraints>
+                        <state key="normal" image="we_setting_off"/>
+                        <state key="selected" image="we_setting_on"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="SRj-Wt-Kde"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <action selector="openButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="vSf-Wt-xqU"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="事项事项事项事项" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIT-x8-MpQ">
+                        <rect key="frame" x="8" y="51" width="272" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="kK9-H0-AQQ"/>
+                            <constraint firstAttribute="height" constant="20" id="oYm-eY-NAJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="oYm-eY-NAJ"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0Yq-Re-e7T" firstAttribute="top" secondItem="MIT-x8-MpQ" secondAttribute="bottom" constant="1" id="0vt-N5-b8E"/>
+                    <constraint firstItem="EXq-aZ-XA4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="61A-9a-y2g"/>
+                    <constraint firstItem="0Yq-Re-e7T" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Fsw-uc-1ST"/>
+                    <constraint firstItem="fHS-dU-MAb" firstAttribute="leading" secondItem="MIT-x8-MpQ" secondAttribute="trailing" constant="2" id="Mew-zY-UYj"/>
+                    <constraint firstAttribute="trailing" secondItem="0Yq-Re-e7T" secondAttribute="trailing" constant="8" id="OpR-qr-l2d"/>
+                    <constraint firstItem="MIT-x8-MpQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Rsa-9Z-RdD"/>
+                    <constraint firstItem="EXq-aZ-XA4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="U6M-p6-sQ6"/>
+                    <constraint firstItem="fHS-dU-MAb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="23" id="ht1-CT-zPQ"/>
+                    <constraint firstAttribute="trailing" secondItem="fHS-dU-MAb" secondAttribute="trailing" constant="8" id="jTJ-gD-NLl"/>
+                    <constraint firstItem="MIT-x8-MpQ" firstAttribute="top" secondItem="EXq-aZ-XA4" secondAttribute="bottom" constant="3" id="zGk-Ij-Lk3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="matterLabel" destination="MIT-x8-MpQ" id="vHd-xG-pPr"/>
+                <outlet property="openButton" destination="fHS-dU-MAb" id="LyA-I9-QG8"/>
+                <outlet property="repeatCycleLabel" destination="0Yq-Re-e7T" id="plI-rZ-jtI"/>
+                <outlet property="timeLabel" destination="EXq-aZ-XA4" id="7Gk-FW-oL4"/>
+            </connections>
+            <point key="canvasLocation" x="91.5" y="81"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="we_setting_off" width="190" height="90"/>
+        <image name="we_setting_on" width="190" height="90"/>
+    </resources>
+</document>

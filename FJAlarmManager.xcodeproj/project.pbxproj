@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DCBC9671D34956700DA1C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9661D34956700DA1C57 /* main.m */; };
+		8DCBC96A1D34956700DA1C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9691D34956700DA1C57 /* AppDelegate.m */; };
+		8DCBC9751D34956700DA1C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBC9741D34956700DA1C57 /* Assets.xcassets */; };
+		8DCBC9781D34956700DA1C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBC9761D34956700DA1C57 /* LaunchScreen.storyboard */; };
+		8DCBC9831D34956700DA1C57 /* FJAlarmManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9821D34956700DA1C57 /* FJAlarmManagerTests.m */; };
+		8DCBC98E1D34956700DA1C57 /* FJAlarmManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC98D1D34956700DA1C57 /* FJAlarmManagerUITests.m */; };
+		8DCBC99E1D34978F00DA1C57 /* FJAlarmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC99C1D34978F00DA1C57 /* FJAlarmListViewController.m */; };
+		8DCBC99F1D34978F00DA1C57 /* FJAlarmListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBC99D1D34978F00DA1C57 /* FJAlarmListViewController.xib */; };
+		8DCBC9A31D3497AB00DA1C57 /* FJAlarmEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9A11D3497AB00DA1C57 /* FJAlarmEditViewController.m */; };
+		8DCBC9A41D3497AB00DA1C57 /* FJAlarmEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBC9A21D3497AB00DA1C57 /* FJAlarmEditViewController.xib */; };
+		8DCBC9A81D3497DC00DA1C57 /* FJSetRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9A61D3497DC00DA1C57 /* FJSetRepeatViewController.m */; };
+		8DCBC9A91D3497DC00DA1C57 /* FJSetRepeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBC9A71D3497DC00DA1C57 /* FJSetRepeatViewController.xib */; };
+		8DCBC9AD1D3497E900DA1C57 /* FJSetMatterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9AB1D3497E900DA1C57 /* FJSetMatterViewController.m */; };
+		8DCBC9AE1D3497E900DA1C57 /* FJSetMatterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBC9AC1D3497E900DA1C57 /* FJSetMatterViewController.xib */; };
+		8DCBC9B31D3498E400DA1C57 /* FJAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9B21D3498E400DA1C57 /* FJAlarm.m */; };
+		8DCBC9BD1D3499B700DA1C57 /* FJAlarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9BB1D3499B700DA1C57 /* FJAlarmCell.m */; };
+		8DCBC9BE1D3499B700DA1C57 /* FJAlarmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBC9BC1D3499B700DA1C57 /* FJAlarmCell.xib */; };
+		8DCBC9C11D34A37400DA1C57 /* FJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBC9C01D34A37400DA1C57 /* FJUtility.m */; };
+		8DD256441D3E2A8D00D69CD5 /* NSDate+FJAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD256431D3E2A8D00D69CD5 /* NSDate+FJAlarm.m */; };
+		8DD256B31D3F65A100D69CD5 /* FJCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD256B21D3F65A100D69CD5 /* FJCoreDataManager.m */; };
+		8DD256B61D3F65C100D69CD5 /* FJAlarmManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DD256B41D3F65C100D69CD5 /* FJAlarmManager.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DCBC97F1D34956700DA1C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DCBC95A1D34956700DA1C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DCBC9611D34956700DA1C57;
+			remoteInfo = FJAlarmManager;
+		};
+		8DCBC98A1D34956700DA1C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DCBC95A1D34956700DA1C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DCBC9611D34956700DA1C57;
+			remoteInfo = FJAlarmManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DCBC9621D34956700DA1C57 /* FJAlarmManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJAlarmManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCBC9661D34956700DA1C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DCBC9681D34956700DA1C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FJAlarmManager/AppDelegate.h; sourceTree = "<group>"; };
+		8DCBC9691D34956700DA1C57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FJAlarmManager/AppDelegate.m; sourceTree = "<group>"; };
+		8DCBC9741D34956700DA1C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DCBC9771D34956700DA1C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DCBC9791D34956700DA1C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCBC97E1D34956700DA1C57 /* FJAlarmManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJAlarmManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCBC9821D34956700DA1C57 /* FJAlarmManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJAlarmManagerTests.m; sourceTree = "<group>"; };
+		8DCBC9841D34956700DA1C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCBC9891D34956700DA1C57 /* FJAlarmManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJAlarmManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCBC98D1D34956700DA1C57 /* FJAlarmManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJAlarmManagerUITests.m; sourceTree = "<group>"; };
+		8DCBC98F1D34956700DA1C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCBC99B1D34978F00DA1C57 /* FJAlarmListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAlarmListViewController.h; sourceTree = "<group>"; };
+		8DCBC99C1D34978F00DA1C57 /* FJAlarmListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAlarmListViewController.m; sourceTree = "<group>"; };
+		8DCBC99D1D34978F00DA1C57 /* FJAlarmListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJAlarmListViewController.xib; sourceTree = "<group>"; };
+		8DCBC9A01D3497AB00DA1C57 /* FJAlarmEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAlarmEditViewController.h; sourceTree = "<group>"; };
+		8DCBC9A11D3497AB00DA1C57 /* FJAlarmEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAlarmEditViewController.m; sourceTree = "<group>"; };
+		8DCBC9A21D3497AB00DA1C57 /* FJAlarmEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJAlarmEditViewController.xib; sourceTree = "<group>"; };
+		8DCBC9A51D3497DC00DA1C57 /* FJSetRepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSetRepeatViewController.h; sourceTree = "<group>"; };
+		8DCBC9A61D3497DC00DA1C57 /* FJSetRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSetRepeatViewController.m; sourceTree = "<group>"; };
+		8DCBC9A71D3497DC00DA1C57 /* FJSetRepeatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJSetRepeatViewController.xib; sourceTree = "<group>"; };
+		8DCBC9AA1D3497E900DA1C57 /* FJSetMatterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSetMatterViewController.h; sourceTree = "<group>"; };
+		8DCBC9AB1D3497E900DA1C57 /* FJSetMatterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSetMatterViewController.m; sourceTree = "<group>"; };
+		8DCBC9AC1D3497E900DA1C57 /* FJSetMatterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJSetMatterViewController.xib; sourceTree = "<group>"; };
+		8DCBC9B11D3498E400DA1C57 /* FJAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAlarm.h; sourceTree = "<group>"; };
+		8DCBC9B21D3498E400DA1C57 /* FJAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAlarm.m; sourceTree = "<group>"; };
+		8DCBC9BA1D3499B700DA1C57 /* FJAlarmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAlarmCell.h; sourceTree = "<group>"; };
+		8DCBC9BB1D3499B700DA1C57 /* FJAlarmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAlarmCell.m; sourceTree = "<group>"; };
+		8DCBC9BC1D3499B700DA1C57 /* FJAlarmCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJAlarmCell.xib; sourceTree = "<group>"; };
+		8DCBC9BF1D34A37400DA1C57 /* FJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJUtility.h; sourceTree = "<group>"; };
+		8DCBC9C01D34A37400DA1C57 /* FJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJUtility.m; sourceTree = "<group>"; };
+		8DD256421D3E2A8D00D69CD5 /* NSDate+FJAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FJAlarm.h"; sourceTree = "<group>"; };
+		8DD256431D3E2A8D00D69CD5 /* NSDate+FJAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FJAlarm.m"; sourceTree = "<group>"; };
+		8DD256B11D3F65A100D69CD5 /* FJCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJCoreDataManager.h; sourceTree = "<group>"; };
+		8DD256B21D3F65A100D69CD5 /* FJCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJCoreDataManager.m; sourceTree = "<group>"; };
+		8DD256B51D3F65C100D69CD5 /* FJAlarmManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FJAlarmManager.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DCBC95F1D34956700DA1C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCBC97B1D34956700DA1C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCBC9861D34956700DA1C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DC289FD1D373CA70002758C /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				8DC289FE1D373CC00002758C /* 列表 */,
+				8DC289FF1D373CD00002758C /* 编辑/新增 */,
+				8DC28A001D373CE30002758C /* 设置 */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		8DC289FE1D373CC00002758C /* 列表 */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC99B1D34978F00DA1C57 /* FJAlarmListViewController.h */,
+				8DCBC99C1D34978F00DA1C57 /* FJAlarmListViewController.m */,
+				8DCBC99D1D34978F00DA1C57 /* FJAlarmListViewController.xib */,
+			);
+			name = "列表";
+			sourceTree = "<group>";
+		};
+		8DC289FF1D373CD00002758C /* 编辑/新增 */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9A01D3497AB00DA1C57 /* FJAlarmEditViewController.h */,
+				8DCBC9A11D3497AB00DA1C57 /* FJAlarmEditViewController.m */,
+				8DCBC9A21D3497AB00DA1C57 /* FJAlarmEditViewController.xib */,
+			);
+			name = "编辑/新增";
+			sourceTree = "<group>";
+		};
+		8DC28A001D373CE30002758C /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9A51D3497DC00DA1C57 /* FJSetRepeatViewController.h */,
+				8DCBC9A61D3497DC00DA1C57 /* FJSetRepeatViewController.m */,
+				8DCBC9A71D3497DC00DA1C57 /* FJSetRepeatViewController.xib */,
+				8DCBC9AA1D3497E900DA1C57 /* FJSetMatterViewController.h */,
+				8DCBC9AB1D3497E900DA1C57 /* FJSetMatterViewController.m */,
+				8DCBC9AC1D3497E900DA1C57 /* FJSetMatterViewController.xib */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		8DCBC9591D34956700DA1C57 = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9641D34956700DA1C57 /* FJAlarmManager */,
+				8DCBC9681D34956700DA1C57 /* AppDelegate.h */,
+				8DCBC9691D34956700DA1C57 /* AppDelegate.m */,
+				8DCBC9811D34956700DA1C57 /* FJAlarmManagerTests */,
+				8DCBC98C1D34956700DA1C57 /* FJAlarmManagerUITests */,
+				8DCBC9631D34956700DA1C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DCBC9631D34956700DA1C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9621D34956700DA1C57 /* FJAlarmManager.app */,
+				8DCBC97E1D34956700DA1C57 /* FJAlarmManagerTests.xctest */,
+				8DCBC9891D34956700DA1C57 /* FJAlarmManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DCBC9641D34956700DA1C57 /* FJAlarmManager */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9C51D34E1DE00DA1C57 /* others */,
+				8DC289FD1D373CA70002758C /* viewController */,
+				8DCBC9B01D3498DA00DA1C57 /* model */,
+				8DCBC9AF1D3498D600DA1C57 /* view */,
+				8DCBC9651D34956700DA1C57 /* Supporting Files */,
+			);
+			path = FJAlarmManager;
+			sourceTree = "<group>";
+		};
+		8DCBC9651D34956700DA1C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9741D34956700DA1C57 /* Assets.xcassets */,
+				8DCBC9761D34956700DA1C57 /* LaunchScreen.storyboard */,
+				8DCBC9791D34956700DA1C57 /* Info.plist */,
+				8DCBC9661D34956700DA1C57 /* main.m */,
+				8DD256B41D3F65C100D69CD5 /* FJAlarmManager.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DCBC9811D34956700DA1C57 /* FJAlarmManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9821D34956700DA1C57 /* FJAlarmManagerTests.m */,
+				8DCBC9841D34956700DA1C57 /* Info.plist */,
+			);
+			path = FJAlarmManagerTests;
+			sourceTree = "<group>";
+		};
+		8DCBC98C1D34956700DA1C57 /* FJAlarmManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC98D1D34956700DA1C57 /* FJAlarmManagerUITests.m */,
+				8DCBC98F1D34956700DA1C57 /* Info.plist */,
+			);
+			path = FJAlarmManagerUITests;
+			sourceTree = "<group>";
+		};
+		8DCBC9AF1D3498D600DA1C57 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9BA1D3499B700DA1C57 /* FJAlarmCell.h */,
+				8DCBC9BB1D3499B700DA1C57 /* FJAlarmCell.m */,
+				8DCBC9BC1D3499B700DA1C57 /* FJAlarmCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8DCBC9B01D3498DA00DA1C57 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9B11D3498E400DA1C57 /* FJAlarm.h */,
+				8DCBC9B21D3498E400DA1C57 /* FJAlarm.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		8DCBC9C51D34E1DE00DA1C57 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				8DCBC9BF1D34A37400DA1C57 /* FJUtility.h */,
+				8DCBC9C01D34A37400DA1C57 /* FJUtility.m */,
+				8DD256421D3E2A8D00D69CD5 /* NSDate+FJAlarm.h */,
+				8DD256431D3E2A8D00D69CD5 /* NSDate+FJAlarm.m */,
+				8DD256B11D3F65A100D69CD5 /* FJCoreDataManager.h */,
+				8DD256B21D3F65A100D69CD5 /* FJCoreDataManager.m */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DCBC9611D34956700DA1C57 /* FJAlarmManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCBC9921D34956700DA1C57 /* Build configuration list for PBXNativeTarget "FJAlarmManager" */;
+			buildPhases = (
+				8DCBC95E1D34956700DA1C57 /* Sources */,
+				8DCBC95F1D34956700DA1C57 /* Frameworks */,
+				8DCBC9601D34956700DA1C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJAlarmManager;
+			productName = FJAlarmManager;
+			productReference = 8DCBC9621D34956700DA1C57 /* FJAlarmManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DCBC97D1D34956700DA1C57 /* FJAlarmManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCBC9951D34956700DA1C57 /* Build configuration list for PBXNativeTarget "FJAlarmManagerTests" */;
+			buildPhases = (
+				8DCBC97A1D34956700DA1C57 /* Sources */,
+				8DCBC97B1D34956700DA1C57 /* Frameworks */,
+				8DCBC97C1D34956700DA1C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DCBC9801D34956700DA1C57 /* PBXTargetDependency */,
+			);
+			name = FJAlarmManagerTests;
+			productName = FJAlarmManagerTests;
+			productReference = 8DCBC97E1D34956700DA1C57 /* FJAlarmManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DCBC9881D34956700DA1C57 /* FJAlarmManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCBC9981D34956700DA1C57 /* Build configuration list for PBXNativeTarget "FJAlarmManagerUITests" */;
+			buildPhases = (
+				8DCBC9851D34956700DA1C57 /* Sources */,
+				8DCBC9861D34956700DA1C57 /* Frameworks */,
+				8DCBC9871D34956700DA1C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DCBC98B1D34956700DA1C57 /* PBXTargetDependency */,
+			);
+			name = FJAlarmManagerUITests;
+			productName = FJAlarmManagerUITests;
+			productReference = 8DCBC9891D34956700DA1C57 /* FJAlarmManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DCBC95A1D34956700DA1C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FJ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ebelter;
+				TargetAttributes = {
+					8DCBC9611D34956700DA1C57 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8DCBC97D1D34956700DA1C57 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8DCBC9611D34956700DA1C57;
+					};
+					8DCBC9881D34956700DA1C57 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8DCBC9611D34956700DA1C57;
+					};
+				};
+			};
+			buildConfigurationList = 8DCBC95D1D34956700DA1C57 /* Build configuration list for PBXProject "FJAlarmManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DCBC9591D34956700DA1C57;
+			productRefGroup = 8DCBC9631D34956700DA1C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DCBC9611D34956700DA1C57 /* FJAlarmManager */,
+				8DCBC97D1D34956700DA1C57 /* FJAlarmManagerTests */,
+				8DCBC9881D34956700DA1C57 /* FJAlarmManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DCBC9601D34956700DA1C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCBC9A41D3497AB00DA1C57 /* FJAlarmEditViewController.xib in Resources */,
+				8DCBC9781D34956700DA1C57 /* LaunchScreen.storyboard in Resources */,
+				8DCBC9A91D3497DC00DA1C57 /* FJSetRepeatViewController.xib in Resources */,
+				8DCBC99F1D34978F00DA1C57 /* FJAlarmListViewController.xib in Resources */,
+				8DCBC9BE1D3499B700DA1C57 /* FJAlarmCell.xib in Resources */,
+				8DCBC9AE1D3497E900DA1C57 /* FJSetMatterViewController.xib in Resources */,
+				8DCBC9751D34956700DA1C57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCBC97C1D34956700DA1C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCBC9871D34956700DA1C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DCBC95E1D34956700DA1C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCBC9A31D3497AB00DA1C57 /* FJAlarmEditViewController.m in Sources */,
+				8DCBC9BD1D3499B700DA1C57 /* FJAlarmCell.m in Sources */,
+				8DCBC9B31D3498E400DA1C57 /* FJAlarm.m in Sources */,
+				8DCBC9C11D34A37400DA1C57 /* FJUtility.m in Sources */,
+				8DCBC96A1D34956700DA1C57 /* AppDelegate.m in Sources */,
+				8DD256B61D3F65C100D69CD5 /* FJAlarmManager.xcdatamodeld in Sources */,
+				8DD256441D3E2A8D00D69CD5 /* NSDate+FJAlarm.m in Sources */,
+				8DCBC9671D34956700DA1C57 /* main.m in Sources */,
+				8DD256B31D3F65A100D69CD5 /* FJCoreDataManager.m in Sources */,
+				8DCBC9AD1D3497E900DA1C57 /* FJSetMatterViewController.m in Sources */,
+				8DCBC99E1D34978F00DA1C57 /* FJAlarmListViewController.m in Sources */,
+				8DCBC9A81D3497DC00DA1C57 /* FJSetRepeatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCBC97A1D34956700DA1C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCBC9831D34956700DA1C57 /* FJAlarmManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCBC9851D34956700DA1C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCBC98E1D34956700DA1C57 /* FJAlarmManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DCBC9801D34956700DA1C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DCBC9611D34956700DA1C57 /* FJAlarmManager */;
+			targetProxy = 8DCBC97F1D34956700DA1C57 /* PBXContainerItemProxy */;
+		};
+		8DCBC98B1D34956700DA1C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DCBC9611D34956700DA1C57 /* FJAlarmManager */;
+			targetProxy = 8DCBC98A1D34956700DA1C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DCBC9761D34956700DA1C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCBC9771D34956700DA1C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DCBC9901D34956700DA1C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DCBC9911D34956700DA1C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DCBC9931D34956700DA1C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FJAlarmManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebelter.FJAlarmManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DCBC9941D34956700DA1C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FJAlarmManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebelter.FJAlarmManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DCBC9961D34956700DA1C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FJAlarmManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebelter.FJAlarmManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJAlarmManager.app/FJAlarmManager";
+			};
+			name = Debug;
+		};
+		8DCBC9971D34956700DA1C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FJAlarmManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebelter.FJAlarmManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJAlarmManager.app/FJAlarmManager";
+			};
+			name = Release;
+		};
+		8DCBC9991D34956700DA1C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FJAlarmManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebelter.FJAlarmManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FJAlarmManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8DCBC99A1D34956700DA1C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FJAlarmManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebelter.FJAlarmManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FJAlarmManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DCBC95D1D34956700DA1C57 /* Build configuration list for PBXProject "FJAlarmManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCBC9901D34956700DA1C57 /* Debug */,
+				8DCBC9911D34956700DA1C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCBC9921D34956700DA1C57 /* Build configuration list for PBXNativeTarget "FJAlarmManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCBC9931D34956700DA1C57 /* Debug */,
+				8DCBC9941D34956700DA1C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCBC9951D34956700DA1C57 /* Build configuration list for PBXNativeTarget "FJAlarmManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCBC9961D34956700DA1C57 /* Debug */,
+				8DCBC9971D34956700DA1C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCBC9981D34956700DA1C57 /* Build configuration list for PBXNativeTarget "FJAlarmManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCBC9991D34956700DA1C57 /* Debug */,
+				8DCBC99A1D34956700DA1C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DD256B41D3F65C100D69CD5 /* FJAlarmManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DD256B51D3F65C100D69CD5 /* FJAlarmManager.xcdatamodel */,
+			);
+			currentVersion = 8DD256B51D3F65C100D69CD5 /* FJAlarmManager.xcdatamodel */;
+			path = FJAlarmManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DCBC95A1D34956700DA1C57 /* Project object */;
+}
